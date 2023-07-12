@@ -1,0 +1,45 @@
+*{
+    font-family: 'Space Mono', monospace;
+    background: black;
+    color: white;
+}
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1300px;;
+}
+
+#addDeath {
+    margin-top: 10vh;
+    font-size: 10vh;
+    border-radius: 15px;
+    border: white solid 1px;
+    background: black;
+    padding: 3vh;
+}
+
+#reset{
+    font-size: 2vh;
+    border-radius: 15px;
+    background: black;
+    border: white solid 1px;
+    padding: 1vh;
+}
+
+#deathDisplay{
+    font-size: 6vh;
+}
+
+#instructions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    row-gap: 4vh;
+    bottom: 1%;
+}
